@@ -35,7 +35,7 @@ spec:
       - name: train-schedule
         image: malli0866/project2:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 30001
         livenessProbe:
           httpGet:
             path: /
